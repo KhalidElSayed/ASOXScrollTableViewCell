@@ -3,15 +3,15 @@ PODS:
   - Kiwi (2.3.0)
 
 DEPENDENCIES:
-  - ASOXScrollTableViewCell (from `../`)
+  - ASOXScrollTableViewCell (from `../ASOXScrollTableViewCell.podspec`)
   - Kiwi
 
 EXTERNAL SOURCES:
   ASOXScrollTableViewCell:
-    :path: ../
+    :path: ../ASOXScrollTableViewCell.podspec
 
 SPEC CHECKSUMS:
-  ASOXScrollTableViewCell: af09fccde7e781bc15785e24669deefe57bc8961
+  ASOXScrollTableViewCell: a93a915768bf27617ef68d40b53d4344102d9eec
   Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
 
 COCOAPODS: 0.33.1

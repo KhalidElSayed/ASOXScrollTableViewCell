@@ -1,38 +1,15 @@
-#
-# Be sure to run `pod lib lint ASOXScrollTableViewCell.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "ASOXScrollTableViewCell"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ASOXScrollTableViewCell."
-  s.description      = <<-DESC
-                       An optional longer description of ASOXScrollTableViewCell
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ASOXScrollTableViewCell"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = 'An easy-to-configure Horizontal Scroll Table View through interface builder'
+  s.description      = 'An easy-to-configure Horizontal Scroll Table View through interface builder. This library suits well for an implementation which integrate Search Display Controller and Horizontal Scroll Table View on the same UITableViewController.'
+  s.homepage         = "https://github.com/agusso/ASOXScrollTableViewCell"
   s.license          = 'MIT'
-  s.author           = { "Agus Soedibjo" => "agus.soedibjo@thinkershq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ASOXScrollTableViewCell.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'Agus Soedibjo' => 'contact@soedibjo.com' }
+  s.source           = { :git => 'https://github.com/agusso/ASOXScrollTableViewCell.git', :tag => '0.1.0' }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
+  
+  s.source_files = 'Pod/Classes/*'
 
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'ASOXScrollTableViewCell' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
