@@ -1,0 +1,89 @@
+{
+    "results": [
+                {
+                "category": "FEATURED",
+                "content": [
+                            {
+                            "title": "Fuji Camera",
+                            "price": "£48.99",
+                            "imageName": "FujiCamera"
+                            },
+                            {
+                            "title": "Outdoor Jacket",
+                            "price": "£109.00",
+                            "imageName": "RedJacket"
+                            },
+                            {
+                            "title": "PS4",
+                            "price": "£340.00",
+                            "imageName": "PS4"
+                            },
+                            {
+                            "title": "Lenovo Laptop",
+                            "price": "£89.99",
+                            "imageName": "LenovoLaptop"
+                            },
+                            {
+                            "title": "Watch",
+                            "price": "£160.00",
+                            "imageName": "Watch"
+                            },
+                            {
+                            "title": "Xbox One",
+                            "price": "£349.00",
+                            "imageName": "XboxOne"
+                            }
+                            ]
+                },
+                {
+                "category": "MOST POPULAR",
+                "content": [
+                            {
+                            "title": "Camcorder",
+                            "price": "£105.99",
+                            "imageName": "Camcorder"
+                            },
+                            {
+                            "title": "Captain America DVD",
+                            "price": "£9.99",
+                            "imageName": "CaptainAmericaDVD"
+                            },
+                            {
+                            "title": "Crocs",
+                            "price": "£39.00",
+                            "imageName": "Crocs"
+                            },
+                            {
+                            "title": "Guitar",
+                            "price": "£53.00",
+                            "imageName": "GreenGuitar"
+                            },
+                            {
+                            "title": "Kindle",
+                            "price": "£69.00",
+                            "imageName": "Kindle"
+                            }
+                            ]
+                },
+                {
+                "category": "RECOMMENDED FOR YOU",
+                "content": [
+                            {
+                            "title": "Scooter",
+                            "price": "£27.00",
+                            "imageName": "Scooter"
+                            },
+                            {
+                            "title": "Dolce Coffee",
+                            "price": "£15.00",
+                            "imageName": "DolceCoffee"
+                            },
+                            {
+                            "title": "Coconut Oil",
+                            "price": "£14.49",
+                            "imageName": "CoconutOil"
+                            }
+                            ]
+                }
+                ]
+}

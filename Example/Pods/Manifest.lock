@@ -1,0 +1,17 @@
+PODS:
+  - ASOXScrollTableViewCell (0.1.0)
+  - Kiwi (2.3.0)
+
+DEPENDENCIES:
+  - ASOXScrollTableViewCell (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  ASOXScrollTableViewCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASOXScrollTableViewCell: af09fccde7e781bc15785e24669deefe57bc8961
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+
+COCOAPODS: 0.33.1

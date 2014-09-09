@@ -1,0 +1,8 @@
+target 'ProductsDisplay', :exclusive => true do
+  pod "ASOXScrollTableViewCell", :path => "../ASOXScrollTableViewCell.podspec"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ASOXScrollTableViewCell", :path => "../ASOXScrollTableViewCell.podspec"
+  pod 'Kiwi'
+end

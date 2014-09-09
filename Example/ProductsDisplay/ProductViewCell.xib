@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductViewCell" rowHeight="160" id="KGk-i7-Jjw" customClass="ProductViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="101" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="101" height="145"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-tO-trb">
+                        <rect key="frame" x="9" y="21" width="81" height="81"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wQ4-tO-trb" secondAttribute="height" multiplier="1:1" id="enP-Vt-U4X"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j24-0K-U1u">
+                        <rect key="frame" x="9" y="116" width="80" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="j24-0K-U1u" firstAttribute="top" secondItem="wQ4-tO-trb" secondAttribute="bottom" constant="14" id="Ha6-Nz-wR8"/>
+                    <constraint firstAttribute="bottom" secondItem="j24-0K-U1u" secondAttribute="bottom" constant="8" id="S42-ek-72c"/>
+                    <constraint firstItem="wQ4-tO-trb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="d57-ni-UCC"/>
+                    <constraint firstItem="j24-0K-U1u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="iM9-EN-ICM"/>
+                    <constraint firstAttribute="bottom" secondItem="wQ4-tO-trb" secondAttribute="bottom" constant="43" id="lvP-Qr-bVo"/>
+                    <constraint firstItem="wQ4-tO-trb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="mCV-s3-ixX"/>
+                    <constraint firstAttribute="trailing" secondItem="j24-0K-U1u" secondAttribute="trailing" constant="12" id="zl1-Mp-3By"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="price" destination="j24-0K-U1u" id="Wsa-Eh-UzM"/>
+                <outlet property="thumbnail" destination="wQ4-tO-trb" id="RrJ-QJ-cMb"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
