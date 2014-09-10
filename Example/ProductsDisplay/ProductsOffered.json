@@ -1,7 +1,7 @@
 {
     "results": [
                 {
-                "category": "FEATURED",
+                "category": "Today's Deals",
                 "content": [
                             {
                             "title": "Fuji Camera",
@@ -36,17 +36,12 @@
                             ]
                 },
                 {
-                "category": "MOST POPULAR",
+                "category": "Best Sellers",
                 "content": [
                             {
                             "title": "Camcorder",
                             "price": "£105.99",
                             "imageName": "Camcorder"
-                            },
-                            {
-                            "title": "Captain America DVD",
-                            "price": "£9.99",
-                            "imageName": "CaptainAmericaDVD"
                             },
                             {
                             "title": "Crocs",
@@ -66,8 +61,18 @@
                             ]
                 },
                 {
-                "category": "RECOMMENDED FOR YOU",
+                "category": "Recommended For You",
                 "content": [
+                            {
+                            "title": "Running Shoes",
+                            "price": "£54.49",
+                            "imageName": "RunningShoes"
+                            },
+                            {
+                            "title": "Helmet",
+                            "price": "£109.99",
+                            "imageName": "Helmet"
+                            },
                             {
                             "title": "Scooter",
                             "price": "£27.00",
@@ -77,6 +82,11 @@
                             "title": "Dolce Coffee",
                             "price": "£15.00",
                             "imageName": "DolceCoffee"
+                            },
+                            {
+                            "title": "Exercise Bike",
+                            "price": "£349.00",
+                            "imageName": "ExerciseBike"
                             },
                             {
                             "title": "Coconut Oil",

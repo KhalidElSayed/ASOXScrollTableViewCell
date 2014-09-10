@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     if (!self.horizontalScrollElements) {
-        NSString *mainProductsPath = [[NSBundle mainBundle] pathForResource:@"MainProducts" ofType:@"json"];
+        NSString *mainProductsPath = [[NSBundle mainBundle] pathForResource:@"ProductsOffered" ofType:@"json"];
         NSData *mainProductsData = [[NSData alloc] initWithContentsOfFile:mainProductsPath];
         
         NSError *error = nil;
